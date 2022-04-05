@@ -1,0 +1,51 @@
+header{
+    background-color: gray;
+    height: 100px;
+    position: relative;
+}
+
+header > div{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+#block1{
+    background-color: white;
+    height: 200px;
+}
+
+#block1 > p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+#block2{
+    background-color: lightskyblue;
+    height: 200px;
+    width: 100vw;
+}
+
+#block3{
+    background-color: cyan;
+    height: 200px;
+    width: 100vw;
+}
+
+#block4{
+    background-color: lightgreen;
+    height: 200px;
+    width: 100vw;
+}
+
+#block5{
+    background-color: yellow;
+    height: 200px;
+    width: 100vw;
+}
